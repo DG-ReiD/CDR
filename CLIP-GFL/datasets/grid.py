@@ -43,7 +43,7 @@ class GRID(ImageDataset):
     _junk_pids = [0]
 
     def __init__(self, root='', split_id=9, **kwargs):
-        self.root = "/data/zhz_dataset/ReID/"
+        self.root = root
         self.dataset_dir = osp.join(self.root, self.dataset_dir)
 
         self.probe_path = osp.join(
