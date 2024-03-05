@@ -39,7 +39,7 @@ class VIPeR(ImageDataset):
     dataset_url = 'http://users.soe.ucsc.edu/~manduchi/VIPeR.v1.0.zip'
 
     def __init__(self, root='', split_id=9, **kwargs):
-        self.root = "/data/zhz_dataset/ReID"
+        self.root = root
         self.dataset_dir = osp.join(self.root, self.dataset_dir)
 
         self.cam_a_dir = osp.join(self.dataset_dir, 'cam_a')
