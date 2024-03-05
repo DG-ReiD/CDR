@@ -1,9 +1,4 @@
 # encoding: utf-8
-"""
-@author:  liaoxingyu
-@contact: sherlockliao01@gmail.com
-"""
-
 import numpy as np
 import torch
 from PIL import Image, ImageOps, ImageEnhance
