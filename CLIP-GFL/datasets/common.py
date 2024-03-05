@@ -1,8 +1,4 @@
 # encoding: utf-8
-"""
-@author:  liaoxingyu
-@contact: sherlockliao01@gmail.com
-"""
 import sys
 import time
 from torch.utils.data import Dataset
