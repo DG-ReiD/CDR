@@ -45,7 +45,7 @@ class MSMT17(ImageDataset):
     dataset_url = None
     dataset_name = 'msmt17'
 
-    def __init__(self, root='/data/zhz_dataset/ReID/', **kwargs):
+    def __init__(self, root='', **kwargs):
         self.dataset_dir = root
 
         has_main_dir = False
