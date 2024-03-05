@@ -1,9 +1,3 @@
-# encoding: utf-8
-"""
-@author:  liaoxingyu
-@contact: sherlockliao01@gmail.com
-"""
-
 import torch
 import torch.nn.functional as F
 
