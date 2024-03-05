@@ -38,7 +38,7 @@ class PRID(ImageDataset):
     dataset_url = None
 
     def __init__(self, root='', split_id=9, **kwargs):
-        self.root = "/data/zhz_dataset/ReID/PRID"
+        self.root = root
         self.dataset_dir = osp.join(self.root)
 
         self.cam_a_dir = osp.join(self.dataset_dir, 'single_shot', 'cam_a')
