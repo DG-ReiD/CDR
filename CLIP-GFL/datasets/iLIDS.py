@@ -41,7 +41,7 @@ class iLIDS(ImageDataset):
     dataset_url = 'http://www.eecs.qmul.ac.uk/~jason/data/i-LIDS_Pedestrian.tgz'
 
     def __init__(self, root='', split_id=9, **kwargs):
-        self.root = "/data/zhz_dataset/ReID/"
+        self.root = root
         self.dataset_dir = osp.join(self.root, self.dataset_dir)
 
         self.data_dir = osp.join(self.dataset_dir, 'Persons')
