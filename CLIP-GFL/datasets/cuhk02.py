@@ -29,7 +29,7 @@ class CUHK02(ImageDataset):
     dataset_name = "cuhk02"
 
     def __init__(self, root='', **kwargs):
-        self.root = "/data/zhz_dataset/ReID"
+        self.root = root
         self.dataset_dir = osp.join(self.root, self.dataset_dir)
 
         required_files = [self.dataset_dir]
