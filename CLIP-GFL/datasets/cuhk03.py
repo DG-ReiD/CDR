@@ -1,9 +1,3 @@
-# encoding: utf-8
-"""
-@author:  liaoxingyu
-@contact: liaoxingyu2@jd.com
-"""
-
 import json
 import os.path as osp
 
