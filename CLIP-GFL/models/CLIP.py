@@ -8,10 +8,8 @@ import torch.nn.functional as F
 
 def load_clip_to_cpu(backbone_name, h_resolution, w_resolution, vision_stride_size):
     url = clip._MODELS[backbone_name]
-    try:
-        model_path = clip._download(url)
-    except:
-        model_path = '/home/zhaohuazhong/.cache/clip/ViT-B-16.pt'
+    model_path = clip._download(url)
+
 
     try:
         # loading JIT archive
