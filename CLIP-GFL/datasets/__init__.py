@@ -1,9 +1,3 @@
-# encoding: utf-8
-"""
-@author:  liaoxingyu
-@contact: sherlockliao01@gmail.com
-"""
-
 from reidutils.registry import Registry
 
 DATASET_REGISTRY = Registry("DATASET")
