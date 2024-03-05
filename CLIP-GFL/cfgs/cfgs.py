@@ -34,7 +34,7 @@ def parse_train_args(parser, datasets=None, classes=None, combine_all=False):
     parser.add_argument('--aug_mix', default=0.6, type=float)
     parser.add_argument('--random_erasing', default=0.0, type=float)
     parser.add_argument('--batch_size', type=int, default=128)
-    parser.add_argument('--optimizer', type=str, default='SGD')
+    parser.add_argument('--optimizer', type=str, default='Adam')
     parser.add_argument('--checkpoint_period', type=int, default=60)
     parser.add_argument('--log_period', type=int, default=100)
     parser.add_argument('--eval_period', type=int, default=10)
