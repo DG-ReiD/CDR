@@ -4,8 +4,8 @@ def parse_common_args(parser):
     parser.add_argument('--device_id', type=str, default='1')
     parser.add_argument('--num_workers', type=int, default=8)
     parser.add_argument('--num_instance', type=int, default=4)
-    parser.add_argument('--data_path', type=str, default='/data/ReID', help="dataset path")
-    parser.add_argument('--log_path', type=str, default='/data/log', help="log path")
+    parser.add_argument('--data_path', type=str, default='dataset', help="dataset path")
+    parser.add_argument('--log_path', type=str, default='log/', help="log path")
     return parser
 
 
