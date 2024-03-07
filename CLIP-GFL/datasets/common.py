@@ -152,6 +152,3 @@ class ImageDataset(Dataset):
 
         return img, pid, camid, trackid, img_path.split('/')[-1]
 
-
-if __name__ == "__main__":
-    read_image('/data/zhz_dataset/ReID/cuhk03/images_labeled/1_001_2_08.png')
